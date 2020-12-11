@@ -9,5 +9,5 @@ open module foreksempel {
 	requires javafx.graphics;
 	requires junit;
 	requires org.eclipse.xtext.xbase.lib;
-	requires no.hal.jex.jextest.lib;
+	// requires no.hal.jex.jextest.lib;
 }
