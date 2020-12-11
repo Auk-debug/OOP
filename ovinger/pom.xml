@@ -60,8 +60,8 @@
   </dependencies>
 
   <build>
-    <sourceDirectory>src</sourceDirectory>
-    <testSourceDirectory>test</testSourceDirectory>
+    <!-- <sourceDirectory>src</sourceDirectory>
+    <testSourceDirectory>src</testSourceDirectory> -->
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
