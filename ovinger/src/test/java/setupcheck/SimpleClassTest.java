@@ -1,6 +1,8 @@
 package setupcheck;
 
-import junit.jupiter.api.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.*;
 
 class SimpleClassTest {
 
