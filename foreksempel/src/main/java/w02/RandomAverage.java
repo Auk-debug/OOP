@@ -1,18 +1,16 @@
 package w02;
 
-import java.util.Random;
-
 public class RandomAverage {
 	DownCounter downCounter;
-	Random random;
+	Random100 random;
 	Average average;
 	
 	public double computeRandomAverage(int count) {
 		downCounter = new DownCounter(count);
-		random = new Random();
+		random = new Random100();
 		average = new Average();
 		while (!downCounter.isFinished()) {
-			int value = random.nextInt(100);
+			int value = random.getRandom100();
 			average.acceptValue(value);
 			downCounter.countDown();
 		}

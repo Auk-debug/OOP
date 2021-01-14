@@ -5,10 +5,10 @@ public class Average {
 	double sum = 0;
 
 	public void acceptValue(double value) {
-		sum += value;
-		valueCount += 1;
+		sum += value; // samme som 'sum = sum + value'
+		valueCount++; // samme som 'valueCount += 1' eller 'valueCount = valueCount + 1' 
 	}
-
+	
 	public double getAverage() {
 		return sum / valueCount;
 	}

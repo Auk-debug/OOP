@@ -8,7 +8,6 @@ public class Frukt {
 	String type;
 
 	public Frukt(String type, double antall) {
-		super();
 		this.antall = antall;
 		this.type = type;
 	}
