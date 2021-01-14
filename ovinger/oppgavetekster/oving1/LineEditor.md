@@ -19,9 +19,9 @@ Klassen har metoder med følgende oppførsel:
 - `int getInsertionIndex` - returnerer hvor i teksten redigeringer nå skjer 
 - `void setInsertionIndex(int)` - oppdaterer hvor i teksten redigeringer skal skje
 
-## Del 1 - Tilstandsdiagram
+## Del 1 - Objekttilstandsdiagram
 
-Tegn et tilstandsdiagram for en tenkt bruk av `LineEditor`-klassen, som dekker bruk av alle metodene.
+Tegn et objekttilstandsdiagram for en tenkt bruk av `LineEditor`-klassen, som dekker bruk av alle metodene.
 
 For alle metodene bør du tenke på hva som er fornuftig oppførsel for spesielle tilfeller, f.eks. når tekstinnsettingsposisjonen er helt til venstre eller høyre. Tenk også på hva som bør skje med tekstinnsettingsposisjonen når teksten endres.
 
