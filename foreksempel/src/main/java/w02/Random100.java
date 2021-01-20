@@ -11,5 +11,8 @@ public class Random100 {
 	public static void main(String[] args) {
 		Random100 ra = new Random100();
 		System.out.println(ra.getRandom100());
+		System.out.println(ra.getRandom100());
+		System.out.println(ra.getRandom100());
+		System.out.println(ra.getRandom100());
 	}
 }

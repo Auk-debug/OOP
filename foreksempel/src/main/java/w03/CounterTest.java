@@ -26,10 +26,9 @@ public class CounterTest {
 		co.count(); // Nå skal den være 3
 		assertEquals(3, co.getCounter());
 		assertFalse(co.count()); // 4
-		assertFalse(co.count()); // 5
+		assertTrue(co.count()); // 5
 		assertEquals(5, co.getCounter());
 		assertTrue(co.count());
 		assertEquals(5, co.getCounter());
 	}
-
 }

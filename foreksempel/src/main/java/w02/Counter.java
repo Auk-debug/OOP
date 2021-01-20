@@ -39,5 +39,4 @@ public class Counter {
 		// TODO Auto-generated method stub
 		return this.counter;
 	}
-
 }

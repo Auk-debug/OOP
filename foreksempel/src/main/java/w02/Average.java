@@ -10,11 +10,17 @@ public class Average {
 	}
 	
 	public double getAverage() {
-		return sum / valueCount;
+		if (valueCount == 0) {
+			return 0;
+		} 
+		else {
+			return sum / valueCount;
+		}
 	}
 
 	public static void main(String[] args) {
 		Average avg = new Average();
+		System.out.println(avg.getAverage());
 		avg.acceptValue(3);
 		avg.acceptValue(4);		
 		System.out.println(avg.getAverage());

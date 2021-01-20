@@ -2,7 +2,7 @@ package w03;
 
 public class Tall {
 	private String tall;
-
+	
 	public Tall(int tall) {
 		super();
 		this.setTall(tall);

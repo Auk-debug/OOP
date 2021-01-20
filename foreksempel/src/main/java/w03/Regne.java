@@ -59,7 +59,7 @@ public class Regne {
 		r.a = 7;
 		r.b = 6;
 		// Fungerer ikke dette bra da eller?
-		// Når kan en gjøre det, eventuelt når kan en ikke? Eller skal en aldri gjøre det?
+		// Når kan en gjøre det, eventuelt når kan en ikke? Eller skal en aldri gjøre det?		
 		r.prettyPrint();
 
 		// Metoder for å beregne pluss og gang, der verdiene blir med som parametre:

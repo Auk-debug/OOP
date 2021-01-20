@@ -4,11 +4,12 @@ public class DownCounter {
 	int counter = 0;
 
 	public DownCounter(int counter) {
-		this.counter = counter;
+		if (counter > 0)
+			this.counter = counter;
 	}
 	
 	public boolean isFinished() {
-		return counter == 0;
+		return counter <= 0;
 	}
 
 	public void countDown() {
@@ -19,7 +20,7 @@ public class DownCounter {
 	}
 
 	public static void main(String[] args) {
-		DownCounter dc = new DownCounter(4);
+		DownCounter dc = new DownCounter(-1);
 		System.out.println(dc.isFinished());
 		dc.countDown();
 		System.out.println(dc.isFinished());
